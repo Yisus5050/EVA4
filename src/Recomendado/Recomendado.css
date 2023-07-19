@@ -1,0 +1,21 @@
+.recomendado-flex {
+  display: flex;
+  margin-left: 20rem;;
+}
+
+.recomendado-title {
+  margin-left: 20rem;
+  margin-bottom: 20px;
+  margin-top: 2px;
+  font-size: 20px;
+
+}
+
+@media screen and (max-width: 767px) {
+  .recomendado-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
